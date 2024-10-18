@@ -18,5 +18,6 @@ class DatabaseSeeder extends Seeder
             'email' => 'liakatbiswas@gmail.com',
             'password' => bcrypt(12345),
         ]);
+        User::factory(200)->create();
     }
 }
